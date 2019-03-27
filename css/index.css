@@ -1,0 +1,90 @@
+body {
+	width: 100%;
+	text-align: center;
+}
+
+#title {
+	font-size: 5em;
+	font-weight: bold;
+	color: grey;
+}
+
+@media only screen and (max-width: 600px)  {
+	#title {
+		font-size: 3em;
+	}
+}
+
+.main-image {
+	width: 100%;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+
+.image-block {
+	padding: 1.5em;
+}
+
+.image-title {
+	font-weight: bold;
+	font-size: 2em;
+	border-bottom: lightgray;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	color: gray;
+}
+
+.image-description {
+	color: gray;
+	padding: 1.5em;
+}
+
+#threejs-img {
+	max-width: 351px;
+}
+
+#matplotlib-img {
+	max-width: 1040px;
+}
+
+#matlab-img {
+	max-width: 1040px;
+}
+
+#paraview-img {
+	max-width: 671px;
+}
+
+#mathematica-img {
+	max-width: 617px;
+}
+
+.but {
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.src-but {
+	background-color: white;
+	color: #898989;
+	border: 2px solid lightgray;
+	text-decoration: none;
+}
+
+.src-but:hover {
+	background-color: lightgray;
+	color: white;
+	text-decoration: none;
+}
+
+
